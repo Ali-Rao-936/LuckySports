@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E94A87E82A08E84E00E37BFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94A87E72A08E84E00E37BFD /* AppDelegate.swift */; };
+		E94A87EA2A08E84E00E37BFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94A87E92A08E84E00E37BFD /* SceneDelegate.swift */; };
+		E94A87EC2A08E84E00E37BFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94A87EB2A08E84E00E37BFD /* ViewController.swift */; };
+		E94A87EF2A08E84E00E37BFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E94A87ED2A08E84E00E37BFD /* Main.storyboard */; };
+		E94A87F22A08E84E00E37BFD /* Lucky_Sports.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E94A87F02A08E84E00E37BFD /* Lucky_Sports.xcdatamodeld */; };
+		E94A87F42A08E84F00E37BFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E94A87F32A08E84F00E37BFD /* Assets.xcassets */; };
+		E94A87F72A08E84F00E37BFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E94A87F52A08E84F00E37BFD /* LaunchScreen.storyboard */; };
+		E94A88022A08E85000E37BFD /* Lucky_SportsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94A88012A08E85000E37BFD /* Lucky_SportsTests.swift */; };
+		E94A880C2A08E85000E37BFD /* Lucky_SportsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94A880B2A08E85000E37BFD /* Lucky_SportsUITests.swift */; };
+		E94A880E2A08E85000E37BFD /* Lucky_SportsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94A880D2A08E85000E37BFD /* Lucky_SportsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E94A87FE2A08E85000E37BFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E94A87DC2A08E84E00E37BFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E94A87E32A08E84E00E37BFD;
+			remoteInfo = "Lucky Sports";
+		};
+		E94A88082A08E85000E37BFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E94A87DC2A08E84E00E37BFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E94A87E32A08E84E00E37BFD;
+			remoteInfo = "Lucky Sports";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E94A87E42A08E84E00E37BFD /* Lucky Sports.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lucky Sports.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E94A87E72A08E84E00E37BFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E94A87E92A08E84E00E37BFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E94A87EB2A08E84E00E37BFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E94A87EE2A08E84E00E37BFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E94A87F12A08E84E00E37BFD /* Lucky_Sports.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lucky_Sports.xcdatamodel; sourceTree = "<group>"; };
+		E94A87F32A08E84F00E37BFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E94A87F62A08E84F00E37BFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E94A87F82A08E84F00E37BFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E94A87FD2A08E85000E37BFD /* Lucky SportsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lucky SportsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E94A88012A08E85000E37BFD /* Lucky_SportsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lucky_SportsTests.swift; sourceTree = "<group>"; };
+		E94A88072A08E85000E37BFD /* Lucky SportsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lucky SportsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E94A880B2A08E85000E37BFD /* Lucky_SportsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lucky_SportsUITests.swift; sourceTree = "<group>"; };
+		E94A880D2A08E85000E37BFD /* Lucky_SportsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lucky_SportsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E94A87E12A08E84E00E37BFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E94A87FA2A08E85000E37BFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E94A88042A08E85000E37BFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E94A87DB2A08E84E00E37BFD = {
+			isa = PBXGroup;
+			children = (
+				E94A87E62A08E84E00E37BFD /* Lucky Sports */,
+				E94A88002A08E85000E37BFD /* Lucky SportsTests */,
+				E94A880A2A08E85000E37BFD /* Lucky SportsUITests */,
+				E94A87E52A08E84E00E37BFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E94A87E52A08E84E00E37BFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E94A87E42A08E84E00E37BFD /* Lucky Sports.app */,
+				E94A87FD2A08E85000E37BFD /* Lucky SportsTests.xctest */,
+				E94A88072A08E85000E37BFD /* Lucky SportsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E94A87E62A08E84E00E37BFD /* Lucky Sports */ = {
+			isa = PBXGroup;
+			children = (
+				E94A87E72A08E84E00E37BFD /* AppDelegate.swift */,
+				E94A87E92A08E84E00E37BFD /* SceneDelegate.swift */,
+				E94A87EB2A08E84E00E37BFD /* ViewController.swift */,
+				E94A87ED2A08E84E00E37BFD /* Main.storyboard */,
+				E94A87F32A08E84F00E37BFD /* Assets.xcassets */,
+				E94A87F52A08E84F00E37BFD /* LaunchScreen.storyboard */,
+				E94A87F82A08E84F00E37BFD /* Info.plist */,
+				E94A87F02A08E84E00E37BFD /* Lucky_Sports.xcdatamodeld */,
+			);
+			path = "Lucky Sports";
+			sourceTree = "<group>";
+		};
+		E94A88002A08E85000E37BFD /* Lucky SportsTests */ = {
+			isa = PBXGroup;
+			children = (
+				E94A88012A08E85000E37BFD /* Lucky_SportsTests.swift */,
+			);
+			path = "Lucky SportsTests";
+			sourceTree = "<group>";
+		};
+		E94A880A2A08E85000E37BFD /* Lucky SportsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E94A880B2A08E85000E37BFD /* Lucky_SportsUITests.swift */,
+				E94A880D2A08E85000E37BFD /* Lucky_SportsUITestsLaunchTests.swift */,
+			);
+			path = "Lucky SportsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E94A87E32A08E84E00E37BFD /* Lucky Sports */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E94A88112A08E85000E37BFD /* Build configuration list for PBXNativeTarget "Lucky Sports" */;
+			buildPhases = (
+				E94A87E02A08E84E00E37BFD /* Sources */,
+				E94A87E12A08E84E00E37BFD /* Frameworks */,
+				E94A87E22A08E84E00E37BFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lucky Sports";
+			productName = "Lucky Sports";
+			productReference = E94A87E42A08E84E00E37BFD /* Lucky Sports.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E94A87FC2A08E85000E37BFD /* Lucky SportsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E94A88142A08E85000E37BFD /* Build configuration list for PBXNativeTarget "Lucky SportsTests" */;
+			buildPhases = (
+				E94A87F92A08E85000E37BFD /* Sources */,
+				E94A87FA2A08E85000E37BFD /* Frameworks */,
+				E94A87FB2A08E85000E37BFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E94A87FF2A08E85000E37BFD /* PBXTargetDependency */,
+			);
+			name = "Lucky SportsTests";
+			productName = "Lucky SportsTests";
+			productReference = E94A87FD2A08E85000E37BFD /* Lucky SportsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E94A88062A08E85000E37BFD /* Lucky SportsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E94A88172A08E85000E37BFD /* Build configuration list for PBXNativeTarget "Lucky SportsUITests" */;
+			buildPhases = (
+				E94A88032A08E85000E37BFD /* Sources */,
+				E94A88042A08E85000E37BFD /* Frameworks */,
+				E94A88052A08E85000E37BFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E94A88092A08E85000E37BFD /* PBXTargetDependency */,
+			);
+			name = "Lucky SportsUITests";
+			productName = "Lucky SportsUITests";
+			productReference = E94A88072A08E85000E37BFD /* Lucky SportsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E94A87DC2A08E84E00E37BFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E94A87E32A08E84E00E37BFD = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					E94A87FC2A08E85000E37BFD = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E94A87E32A08E84E00E37BFD;
+					};
+					E94A88062A08E85000E37BFD = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E94A87E32A08E84E00E37BFD;
+					};
+				};
+			};
+			buildConfigurationList = E94A87DF2A08E84E00E37BFD /* Build configuration list for PBXProject "Lucky Sports" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E94A87DB2A08E84E00E37BFD;
+			productRefGroup = E94A87E52A08E84E00E37BFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E94A87E32A08E84E00E37BFD /* Lucky Sports */,
+				E94A87FC2A08E85000E37BFD /* Lucky SportsTests */,
+				E94A88062A08E85000E37BFD /* Lucky SportsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E94A87E22A08E84E00E37BFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94A87F72A08E84F00E37BFD /* LaunchScreen.storyboard in Resources */,
+				E94A87F42A08E84F00E37BFD /* Assets.xcassets in Resources */,
+				E94A87EF2A08E84E00E37BFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E94A87FB2A08E85000E37BFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E94A88052A08E85000E37BFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E94A87E02A08E84E00E37BFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94A87EC2A08E84E00E37BFD /* ViewController.swift in Sources */,
+				E94A87E82A08E84E00E37BFD /* AppDelegate.swift in Sources */,
+				E94A87EA2A08E84E00E37BFD /* SceneDelegate.swift in Sources */,
+				E94A87F22A08E84E00E37BFD /* Lucky_Sports.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E94A87F92A08E85000E37BFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94A88022A08E85000E37BFD /* Lucky_SportsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E94A88032A08E85000E37BFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94A880E2A08E85000E37BFD /* Lucky_SportsUITestsLaunchTests.swift in Sources */,
+				E94A880C2A08E85000E37BFD /* Lucky_SportsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E94A87FF2A08E85000E37BFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E94A87E32A08E84E00E37BFD /* Lucky Sports */;
+			targetProxy = E94A87FE2A08E85000E37BFD /* PBXContainerItemProxy */;
+		};
+		E94A88092A08E85000E37BFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E94A87E32A08E84E00E37BFD /* Lucky Sports */;
+			targetProxy = E94A88082A08E85000E37BFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E94A87ED2A08E84E00E37BFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E94A87EE2A08E84E00E37BFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E94A87F52A08E84F00E37BFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E94A87F62A08E84F00E37BFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E94A880F2A08E85000E37BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E94A88102A08E85000E37BFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E94A88122A08E85000E37BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GST3AB35D8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lucky Sports/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lucky.sports.Lucky-Sports";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E94A88132A08E85000E37BFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GST3AB35D8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lucky Sports/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lucky.sports.Lucky-Sports";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E94A88152A08E85000E37BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GST3AB35D8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lucky.sports.Lucky-SportsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lucky Sports.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lucky Sports";
+			};
+			name = Debug;
+		};
+		E94A88162A08E85000E37BFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GST3AB35D8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lucky.sports.Lucky-SportsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lucky Sports.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lucky Sports";
+			};
+			name = Release;
+		};
+		E94A88182A08E85000E37BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GST3AB35D8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lucky.sports.Lucky-SportsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lucky Sports";
+			};
+			name = Debug;
+		};
+		E94A88192A08E85000E37BFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GST3AB35D8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lucky.sports.Lucky-SportsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lucky Sports";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E94A87DF2A08E84E00E37BFD /* Build configuration list for PBXProject "Lucky Sports" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E94A880F2A08E85000E37BFD /* Debug */,
+				E94A88102A08E85000E37BFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E94A88112A08E85000E37BFD /* Build configuration list for PBXNativeTarget "Lucky Sports" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E94A88122A08E85000E37BFD /* Debug */,
+				E94A88132A08E85000E37BFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E94A88142A08E85000E37BFD /* Build configuration list for PBXNativeTarget "Lucky SportsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E94A88152A08E85000E37BFD /* Debug */,
+				E94A88162A08E85000E37BFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E94A88172A08E85000E37BFD /* Build configuration list for PBXNativeTarget "Lucky SportsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E94A88182A08E85000E37BFD /* Debug */,
+				E94A88192A08E85000E37BFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E94A87F02A08E84E00E37BFD /* Lucky_Sports.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E94A87F12A08E84E00E37BFD /* Lucky_Sports.xcdatamodel */,
+			);
+			currentVersion = E94A87F12A08E84E00E37BFD /* Lucky_Sports.xcdatamodel */;
+			path = Lucky_Sports.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E94A87DC2A08E84E00E37BFD /* Project object */;
+}

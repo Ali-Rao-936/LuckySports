@@ -1,0 +1,198 @@
+
+/* Class = "UILabel"; text = "Confirm Password"; ObjectID = "02I-w4-7VT"; */
+"02I-w4-7VT.text" = "确认密码";
+
+/* Class = "UILabel"; text = "Rate Us"; ObjectID = "0B5-J0-vT4"; */
+"0B5-J0-vT4.text" = "评价我们";
+
+/* Class = "UILabel"; text = "0 : 0"; ObjectID = "0e3-Tk-etp"; */
+"0e3-Tk-etp.text" = "0 : 0";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "0z9-9B-yid"; */
+"0z9-9B-yid.text" = "-";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "16f-ft-Z3H"; */
+"16f-ft-Z3H.text" = "描述";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "1ke-h2-yXr"; */
+"1ke-h2-yXr.normalTitle" = "继续";
+
+/* Class = "UILabel"; text = "Delete Account"; ObjectID = "2Vs-dw-mvb"; */
+"2Vs-dw-mvb.text" = "删除账户";
+
+/* Class = "UILabel"; text = "Sign up"; ObjectID = "3b3-fE-4td"; */
+"3b3-fE-4td.text" = "在此注册";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "4AV-I5-MTg"; */
+"4AV-I5-MTg.text" = "输入你的密码";
+
+/* Class = "UILabel"; text = "Sign Up"; ObjectID = "4Lu-ca-Oh4"; */
+"4Lu-ca-Oh4.text" = "在此注册";
+
+/* Class = "UILabel"; text = "Don't have an account?"; ObjectID = "4py-BT-pTb"; */
+"4py-BT-pTb.text" = "没有帐号？";
+
+/* Class = "UITextField"; placeholder = "Enter your password again"; ObjectID = "4tS-OE-3de"; */
+"4tS-OE-3de.placeholder" = "请再次输入您的密码";
+
+/* Class = "UILabel"; text = "Reset Password"; ObjectID = "50S-C7-0bu"; */
+"50S-C7-0bu.text" = "重置密码";
+
+/* Class = "UILabel"; text = "Privacy Policy"; ObjectID = "51e-tQ-Vcg"; */
+"51e-tQ-Vcg.text" = "隐私政策";
+
+/* Class = "UILabel"; text = "Logout"; ObjectID = "67b-Ym-OfI"; */
+"67b-Ym-OfI.text" = "退出";
+
+/* Class = "UILabel"; text = "Account Settings"; ObjectID = "7Bc-RY-2nk"; */
+"7Bc-RY-2nk.text" = "账户设置";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "7Fp-lh-D4M"; */
+"7Fp-lh-D4M.normalTitle" = "登录";
+
+/* Class = "UILabel"; text = "Languages"; ObjectID = "7zn-E9-8Pk"; */
+"7zn-E9-8Pk.text" = "语言";
+
+/* Class = "UILabel"; text = "Confirm Password"; ObjectID = "93I-cS-IQi"; */
+"93I-cS-IQi.text" = "确认密码";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Ayv-5v-lAS"; */
+"Ayv-5v-lAS.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Enter your Password"; ObjectID = "E6L-5S-CmN"; */
+"E6L-5S-CmN.placeholder" = "请输入密码";
+
+/* Class = "UIButton"; normalTitle = "Sign up"; ObjectID = "Eqn-sc-wgf"; */
+"Eqn-sc-wgf.normalTitle" = "在此注册";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "F0h-k3-ttx"; */
+"F0h-k3-ttx.text" = "-";
+
+/* Class = "UILabel"; text = "Full Time"; ObjectID = "GVd-nk-ZBc"; */
+"GVd-nk-ZBc.text" = "全场比赛";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "MSA-oD-gHR"; */
+"MSA-oD-gHR.text" = "电子邮件";
+
+/* Class = "UITextField"; placeholder = "Enter your Name"; ObjectID = "Nup-Oh-FyS"; */
+"Nup-Oh-FyS.placeholder" = "输入你的姓名";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "OUo-JL-22N"; */
+"OUo-JL-22N.text" = "-";
+
+/* Class = "UILabel"; text = "Chinese"; ObjectID = "RWz-21-y57"; */
+"RWz-21-y57.text" = "中文";
+
+/* Class = "UILabel"; text = "Welcome!"; ObjectID = "T6V-yG-lWn"; */
+"T6V-yG-lWn.text" = "欢迎来到!";
+
+/* Class = "UILabel"; text = "New Products"; ObjectID = "UEp-7s-XiE"; */
+"UEp-7s-XiE.text" = "新产品";
+
+/* Class = "UITextField"; placeholder = "Enter your new password"; ObjectID = "V38-xI-JtK"; */
+"V38-xI-JtK.placeholder" = "请输入新密码 ";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "XWf-sO-kdY"; */
+"XWf-sO-kdY.normalTitle" = "完成";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "YTD-MA-3L4"; */
+"YTD-MA-3L4.text" = "-";
+
+/* Class = "UILabel"; text = "Hot Products"; ObjectID = "ZGV-5s-Fej"; */
+"ZGV-5s-Fej.text" = "热门产品";
+
+/* Class = "UITextField"; placeholder = "Enter your password"; ObjectID = "ZuQ-kD-noB"; */
+"ZuQ-kD-noB.placeholder" = "请输入密码";
+
+/* Class = "UILabel"; text = "Scores"; ObjectID = "agT-P1-STI"; */
+"agT-P1-STI.text" = "得分";
+
+/* Class = "UILabel"; text = "About App"; ObjectID = "bgp-TP-ezT"; */
+"bgp-TP-ezT.text" = "关于应用";
+
+/* Class = "UILabel"; text = "Product Tags"; ObjectID = "dcm-nz-MYk"; */
+"dcm-nz-MYk.text" = "产品标签";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "eVZ-Ms-PaT"; */
+"eVZ-Ms-PaT.text" = "姓名";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "ezQ-xi-LOl"; */
+"ezQ-xi-LOl.text" = "电子邮件";
+
+/* Class = "UILabel"; text = "Lineup"; ObjectID = "fFX-Y9-5Q5"; */
+"fFX-Y9-5Q5.text" = "阵容";
+
+/* Class = "UITextField"; text = "Ali Gul"; ObjectID = "gRD-08-NeL"; */
+"gRD-08-NeL.text" = "Ali Gul";
+
+/* Class = "UILabel"; text = "Feedback"; ObjectID = "gs9-ZH-moF"; */
+"gs9-ZH-moF.text" = "反馈";
+
+/* Class = "UILabel"; text = "Old Password"; ObjectID = "ipY-zz-wI2"; */
+"ipY-zz-wI2.text" = "旧密码";
+
+/* Class = "UIButton"; normalTitle = "Sava"; ObjectID = "k6I-RZ-HoO"; */
+"k6I-RZ-HoO.normalTitle" = "救球";
+
+/* Class = "UILabel"; text = "English"; ObjectID = "kFc-pJ-F8C"; */
+"kFc-pJ-F8C.text" = "English";
+
+/* Class = "UILabel"; text = "Other Settings"; ObjectID = "m0c-kQ-byc"; */
+"m0c-kQ-byc.text" = "其他设置";
+
+/* Class = "UITextField"; placeholder = "Enter your Email"; ObjectID = "mTc-dX-NKI"; */
+"mTc-dX-NKI.placeholder" = "请输入你的邮件";
+
+/* Class = "UILabel"; text = "Reset Password"; ObjectID = "mb1-l4-DCd"; */
+"mb1-l4-DCd.text" = "重置密码";
+
+/* Class = "UITextField"; text = "test@gmail.com"; ObjectID = "mko-Am-DyM"; */
+"mko-Am-DyM.text" = "test@gmail.com";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "nnC-hl-t2x"; */
+"nnC-hl-t2x.text" = "-";
+
+/* Class = "UILabel"; text = "You want to change?"; ObjectID = "oyw-hq-lOh"; */
+"oyw-hq-lOh.text" = "您想要更改吗？";
+
+/* Class = "UILabel"; text = "You have successfully\nchanged your password  "; ObjectID = "pge-TF-Pmg"; */
+"pge-TF-Pmg.text" = "您已成功更改了密码  ";
+
+/* Class = "UILabel"; text = "Already have an account?"; ObjectID = "pmu-vf-DpL"; */
+"pmu-vf-DpL.text" = "已有账号";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "qrV-3o-7rr"; */
+"qrV-3o-7rr.text" = "-";
+
+/* Class = "UITextField"; placeholder = "Enter your Email"; ObjectID = "r0p-r1-WvC"; */
+"r0p-r1-WvC.placeholder" = "请输入你的邮件";
+
+/* Class = "UITextField"; placeholder = "Enter your Password"; ObjectID = "rtp-ni-MIq"; */
+"rtp-ni-MIq.placeholder" = "请输入密码";
+
+/* Class = "UITextField"; placeholder = "Enter your new password again"; ObjectID = "siq-GC-gsV"; */
+"siq-GC-gsV.placeholder" = "请再次输入您的新密码";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "tth-Up-4Be"; */
+"tth-Up-4Be.text" = "电子邮件";
+
+/* Class = "UILabel"; text = "Share App"; ObjectID = "uBa-SE-FxO"; */
+"uBa-SE-FxO.text" = "Share App";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "vFO-AF-eAq"; */
+"vFO-AF-eAq.text" = "-";
+
+/* Class = "UILabel"; text = "New Password"; ObjectID = "vbt-Ui-uZ6"; */
+"vbt-Ui-uZ6.text" = "新密码";
+
+/* Class = "UILabel"; text = "Reset Password"; ObjectID = "wV0-S8-TmD"; */
+"wV0-S8-TmD.text" = "重置密码";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "xm4-ni-RVL"; */
+"xm4-ni-RVL.text" = "姓名";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "xqS-Oz-fFY"; */
+"xqS-Oz-fFY.text" = "输入你的密码";
+
+/* Class = "UILabel"; text = "Login"; ObjectID = "z7C-tA-dp7"; */
+"z7C-tA-dp7.text" = "登录";

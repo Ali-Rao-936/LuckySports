@@ -1,0 +1,36 @@
+/* 
+  Localizable.strings
+  Lucky Sports
+
+  Created by Qoo on 13/05/2023.
+  
+*/
+
+
+"" = "";
+"" = "";
+"" = "";
+"Price: " = "";
+"Details" = "";
+"Guest User" = "";
+"User Login" = "";
+"User Profile" = "";
+"Shop" = "";
+"Store" = "";
+"Completed Matches" = "";
+"Upcoming Matches" = "";
+"Live Matches" = "";
+"Settings" = "账户设置";
+"Lucky Sports" = "鸿运体育";
+"All Games" = "全游戏 ";
+"CS:GO" = "反恐精英： 全球攻势 ";
+"LOL" = "传奇联盟"; //league of legends 传奇联盟
+"Honor Of Kings" = "国王的荣誉";
+"DOTA 2" = " 捍卫古人 2  ";
+"HearthStone: Heroes Of Warcraft" = "国王的荣誉";
+"Hero Storm" ="摧毁敌对核心 ";
+"Overwatch" = "守望先锋";
+"Starcraft" = " 科幻即时战略";
+"Starcraft 2" = "科幻即时战略 2 ";
+"Rocket League" = "火箭队";
+"Warcraft 3" = " 魔兽世界 3 ";

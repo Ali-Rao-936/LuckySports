@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  Lucky Sports
+
+  Created by Qoo on 13/05/2023.
+  
+*/
+
+"CFBundleDisplayName" = "Lucky Sports";
+
+"CFBundleName" = "Lucky Sports";

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Cabin-Regular.ttf">
+            <string>Cabin-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeTitleCollectionVC" id="gTV-IL-0wX" customClass="HomeTitleCollectionVC" customModule="Lucky_Sports" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="186" height="115"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="186" height="115"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dWZ-Fl-9Mv">
+                        <rect key="frame" x="0.0" y="-5" width="186" height="120"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AllGamesIcon" translatesAutoresizingMaskIntoConstraints="NO" id="pl0-Ij-2iY">
+                                <rect key="frame" x="61" y="14" width="64" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="64" id="0ub-Dv-Teh"/>
+                                    <constraint firstAttribute="height" constant="45" id="vWx-cd-LoC"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lp9-I6-FAU">
+                                <rect key="frame" x="10" y="81" width="166" height="17.333333333333329"/>
+                                <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="14"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" name="PrimarySubtitle"/>
+                        <constraints>
+                            <constraint firstItem="lp9-I6-FAU" firstAttribute="leading" secondItem="dWZ-Fl-9Mv" secondAttribute="leading" constant="10" id="35j-Ue-Mqu"/>
+                            <constraint firstItem="lp9-I6-FAU" firstAttribute="top" secondItem="pl0-Ij-2iY" secondAttribute="bottom" constant="22" id="OWP-3d-goR"/>
+                            <constraint firstAttribute="trailing" secondItem="lp9-I6-FAU" secondAttribute="trailing" constant="10" id="Pqd-Eq-s0V"/>
+                            <constraint firstAttribute="height" constant="120" id="dMr-NF-ORl"/>
+                            <constraint firstAttribute="trailing" secondItem="pl0-Ij-2iY" secondAttribute="trailing" constant="61" id="eKy-uf-g6w"/>
+                            <constraint firstItem="pl0-Ij-2iY" firstAttribute="leading" secondItem="dWZ-Fl-9Mv" secondAttribute="leading" constant="61" id="mwn-QL-luW"/>
+                            <constraint firstItem="pl0-Ij-2iY" firstAttribute="top" secondItem="dWZ-Fl-9Mv" secondAttribute="top" constant="14" id="pFf-wA-0Yd"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="dWZ-Fl-9Mv" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="bX7-fP-AJe"/>
+                <constraint firstAttribute="bottom" secondItem="dWZ-Fl-9Mv" secondAttribute="bottom" id="jdv-HJ-J0c"/>
+                <constraint firstAttribute="trailing" secondItem="dWZ-Fl-9Mv" secondAttribute="trailing" id="jyw-aq-PMI"/>
+            </constraints>
+            <size key="customSize" width="186" height="115"/>
+            <connections>
+                <outlet property="bgView" destination="dWZ-Fl-9Mv" id="Pay-n8-gS6"/>
+                <outlet property="imgCategory" destination="pl0-Ij-2iY" id="ebJ-z0-hKG"/>
+                <outlet property="titleLable" destination="lp9-I6-FAU" id="G75-E7-Pxg"/>
+            </connections>
+            <point key="canvasLocation" x="152.67175572519082" y="48.239436619718312"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="AllGamesIcon" width="32" height="39.333332061767578"/>
+        <namedColor name="PrimarySubtitle">
+            <color red="0.96862745098039216" green="0.95686274509803926" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

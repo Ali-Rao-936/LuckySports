@@ -29,19 +29,6 @@ class SignInViewController: UIViewController {
         // Do any additional setup after loading the view.
         viewModel.delegate = self
         
-        fillData()
-        
-
-        if self.email != ""{
-            setupNavBar(name: "User Profile".localized)
-            profileView.isHidden = false
-            loginView.isHidden = true
-        }else{
-            setupNavBar(name: "User Login".localized)
-            profileView.isHidden = true
-            loginView.isHidden = false
-        }
-        
         
         resetPassword.setOnClickListener {
             self.openVC(storyBoard: "Main", identifier: "ResetPaswordViewController")
@@ -57,8 +44,21 @@ class SignInViewController: UIViewController {
         nameProfile.text = user?.name ?? "Guest User".localized
         emailProfile.text = user?.username
         email = user?.username ?? ""
+        
+        if self.email != ""{
+            setupNavBar(name: "User Profile".localized)
+            profileView.isHidden = false
+            loginView.isHidden = true
+        }else{
+            setupNavBar(name: "User Login".localized)
+            profileView.isHidden = true
+            loginView.isHidden = false
+        }
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        fillData()
+    }
 
     @IBAction func btnSignIn(_ sender: Any) {
         

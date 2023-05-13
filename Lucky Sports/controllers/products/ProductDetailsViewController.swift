@@ -30,7 +30,7 @@ class ProductDetailsViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         setBackButton()
-        setupNavBar(name: "Shop".localized)
+       // setupNavBar(name: "Shop".localized)
         
        
         viewmodel.getProductDetail(id: productID!)

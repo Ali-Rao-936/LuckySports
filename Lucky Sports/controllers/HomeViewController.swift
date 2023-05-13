@@ -28,7 +28,6 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        setupNavBar(name: "Lucky Sports".localized)
         
         viewmodel.delegate=self
         searchBar.delegate = self
@@ -46,6 +45,10 @@ class HomeViewController: UIViewController {
         tableView.registerCell(identifier: "NoMatchesTableVC")
         tableView.delegate = self
         tableView.dataSource = self
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        setupNavBar(name: "Lucky Sports".localized)
     }
     
     

@@ -27,7 +27,6 @@ class PrductListingViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        setupNavBar(name: "Store".localized)
         collectionView.registerCell(identifier: "HomeTitleCollectionVC")
         listingCollectionView.registerCell(identifier: "ProductItemCollectionVC")
         
@@ -45,7 +44,9 @@ class PrductListingViewController: UIViewController {
         Utility.showProgress()
     }
     
-
+    override func viewWillAppear(_ animated: Bool) {
+        setupNavBar(name: "Store".localized)
+    }
 
 }
 extension PrductListingViewController : UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {

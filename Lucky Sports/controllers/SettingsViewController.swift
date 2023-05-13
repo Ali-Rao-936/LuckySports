@@ -31,7 +31,6 @@ class SettingsViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        setupNavBar(name: "Settings".localized)
         viewmodel.delegateD = self
         
         if Utility.getPhoneLanguage() == "en"{
@@ -94,6 +93,7 @@ class SettingsViewController: UIViewController {
     
     
     override func viewWillAppear(_ animated: Bool) {
+        setupNavBar(name: "Settings".localized)
         fillData()
     }
     

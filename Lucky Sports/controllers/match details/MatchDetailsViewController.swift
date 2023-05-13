@@ -42,7 +42,7 @@ class MatchDetailsViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        setupNavBar(name: "Details".localized)
+      //  setupNavBar(name: "Details".localized)
         setBackButton()
         tableView.registerCell(identifier: "MatchDetailsItemTableVC")
         tableView.registerCell(identifier: "LineupTableVC")
